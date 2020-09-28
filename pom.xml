@@ -26,6 +26,7 @@
         <module>dataNoSqlService</module>
         <module>propertyService</module>
         <module>commonService</module>
+        <module>dataSqlService</module>
     </modules>
 
 

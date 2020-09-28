@@ -58,7 +58,7 @@ public class UserDalImplTest {
     }
 
     @Test
-    public void testUserPersistence() {
+    public void testUserPersistence() {  
         userDALImpl.addNewUser(user);
         User retrievedUser = userDALImpl.getUserById(user.getUserId());
         Assert.assertEquals(retrievedUser.toString(), user.toString());
